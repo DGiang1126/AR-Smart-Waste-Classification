@@ -1,0 +1,291 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.15f1 (faa32412f6c9) revision 16425764'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8029 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-10-31T05:08:52Z
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.1.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Project_Nhom5
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51815
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Unity/Project_Nhom5
+D:/Unity/Project_Nhom5
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2348]  Target information:
+
+Player connection [2348]  * "[IP] 172.20.43.75 [Port] 0 [Flags] 2 [Guid] 4044669087 [EditorId] 4044669087 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FH57LVM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [2348] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2348] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 259.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.15f1 (faa32412f6c9)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.1.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Project_Nhom5/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:          NVIDIA
+    VRAM:            3937 MB
+    App VRAM Budget: 3346 MB
+    Driver:          32.0.15.5597
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.1.15f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.1.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.1.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/6000.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity/6000.1.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 1.105913 seconds.
+- Loaded All Assemblies, in 17.653 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1075 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.204 seconds
+Domain Reload Profiling: 19857ms
+	BeginReloadAssembly (12539ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (897ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (1179ms)
+	LoadAllAssembliesAndSetupDomain (3020ms)
+		LoadAssemblies (12564ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2991ms)
+			TypeCache.Refresh (2988ms)
+				TypeCache.ScanAssembly (2526ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2206ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2123ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1329ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (310ms)
+			ProcessInitializeOnLoadMethodAttributes (318ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 22.204 seconds
+Refreshing native plugins compatible for Editor in 46.17 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.588 seconds
+Domain Reload Profiling: 25788ms
+	BeginReloadAssembly (404ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (21564ms)
+		LoadAssemblies (18053ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3730ms)
+			TypeCache.Refresh (3397ms)
+				TypeCache.ScanAssembly (3343ms)
+			BuildScriptInfoCaches (304ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (3588ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1428ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (40ms)
+			BeforeProcessingInitializeOnLoad (378ms)
+			ProcessInitializeOnLoadAttributes (877ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6088 unused Assets / (4.5 MB). Loaded Objects now: 6784.
+Memory consumption went from 126.1 MB to 121.6 MB.
+Total: 20.603700 ms (FindLiveObjects: 2.227500 ms CreateObjectMapping: 1.935700 ms MarkObjects: 10.378800 ms  DeleteObjects: 6.049900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 957.957140 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50ea5ad2cda8720781b90d71f311d8d1') in 0.1037466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1265.933463 seconds.
+  path: Assets/Textture
+  artifactKey: Guid(55d373dd30e222a40af163c11c3fe911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textture using Guid(55d373dd30e222a40af163c11c3fe911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f4e65330461b8609818e6a0799ceee5') in 0.042674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 308.250085 seconds.
+  path: Assets/Textture/brown_mud_leaves_01.webp
+  artifactKey: Guid(3ae4728bb7d03464589066d8297b9948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textture/brown_mud_leaves_01.webp using Guid(3ae4728bb7d03464589066d8297b9948) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f886a6c016abd895d1283b9a9ed6977') in 0.1007509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.677585 seconds.
+  path: Assets/Textture/simple-maze-vector-22818947.avif
+  artifactKey: Guid(744b153ee21f8634aaf11838d170ffdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textture/simple-maze-vector-22818947.avif using Guid(744b153ee21f8634aaf11838d170ffdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '086d1e8d5e2a49ea3e9cc38ff9b54814') in 0.0080936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.481924 seconds.
+  path: Assets/Textture/medieval_blocks_03.webp
+  artifactKey: Guid(096f980456e20ae459cfca94c65bc15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textture/medieval_blocks_03.webp using Guid(096f980456e20ae459cfca94c65bc15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4943cd9a4e532cca9b68e2456eeb523') in 0.0299354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.638034 seconds.
+  path: Assets/Textture/brown_mud_leaves_01.jpg
+  artifactKey: Guid(afa7e261957303e4484c9eb8eedebbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textture/brown_mud_leaves_01.jpg using Guid(afa7e261957303e4484c9eb8eedebbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c696c358208164c8ade680ba856ad6b') in 0.7569647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.624742 seconds.
+  path: Assets/Textture/Materials
+  artifactKey: Guid(1c2e1783503ea6d48b63ce2f5926de98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textture/Materials using Guid(1c2e1783503ea6d48b63ce2f5926de98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '594b224c244a8792e8d21e92721581f8') in 0.0016383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.450414 seconds.
+  path: Assets/Textture/medieval_blocks_03.jpg
+  artifactKey: Guid(83d7c9421a3f305459d0c28afd5684d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textture/medieval_blocks_03.jpg using Guid(83d7c9421a3f305459d0c28afd5684d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02eea41cc57f2ff8976c22a3a82485cb') in 0.0425039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.991674 seconds.
+  path: Assets/Textture/simple-maze-vector-22818947.jpg
+  artifactKey: Guid(3f7d92497a0fe7442a2890118d504456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textture/simple-maze-vector-22818947.jpg using Guid(3f7d92497a0fe7442a2890118d504456) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd361b2d4d429abb6ff8ed251296f7e68') in 0.0038877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.073087 seconds.
+  path: Assets/Textture/simple_maze.jpg
+  artifactKey: Guid(7c9099083a639554d854cb6ab21bffb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textture/simple_maze.jpg using Guid(7c9099083a639554d854cb6ab21bffb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d9e91ba62f1a4fdfa4a1faf57c62657') in 0.0036773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 462.491615 seconds.
+  path: Assets/Textture/maze.jpg
+  artifactKey: Guid(50c6ad7bcae20224b95e29813b9bfb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textture/maze.jpg using Guid(50c6ad7bcae20224b95e29813b9bfb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aafec4b5d9ff5383cf103902a8a41a35') in 0.2207268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.076639 seconds.
+  path: Assets/Textture/simple_maze.jpg
+  artifactKey: Guid(7c9099083a639554d854cb6ab21bffb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textture/simple_maze.jpg using Guid(7c9099083a639554d854cb6ab21bffb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '784f981488060192f08042e890386aea') in 0.0133831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
